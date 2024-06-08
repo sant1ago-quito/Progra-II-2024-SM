@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/btnImgCarros"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginEnd="134dp"
+        android:src="@android:drawable/ic_menu_camera" />
+
+    <EditText
+        android:id="@+id/txtMarca"
+        android:inputType="textPersonName"
+        android:hint="Marca"
+        android:layout_below="@+id/btnImgCarros"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/txtMotor"
+        android:hint="Motor"
+        android:inputType="textMultiLine"
+        android:layout_below="@id/txtMarca"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/txtChasis"
+        android:hint="Chasis"
+        android:inputType="textMultiLine"
+        android:layout_below="@id/txtMotor"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/txtVIN"
+        android:hint="VIN"
+        android:inputType="textMultiLine"
+        android:layout_below="@id/txtChasis"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/txtCombustion"
+        android:inputType="textMultiLine"
+        android:hint="Combustion"
+        android:layout_below="@id/txtVIN"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnGuardarProducto"
+        android:layout_below="@id/txtCombustion"
+        android:layout_marginTop="40dp"
+        android:text="GUARDAR CARRO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabListarAmigos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@android:drawable/ic_menu_revert" />
+
+</RelativeLayout>
