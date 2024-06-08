@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".login">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="153dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/asistedodo" />
+
+    <EditText
+        android:id="@+id/txtUsuario"
+        android:layout_width="match_parent"
+        android:inputType="textEmailAddress"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imgLogo"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        android:textColorHint="#c2c6ce"
+        android:layout_marginRight="32dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hint="Correo" />
+
+    <EditText
+        android:id="@+id/txtContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtUsuario"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="32dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/black"
+        android:textColorHint="#c2c6ce"
+        android:backgroundTint="@color/black"
+        android:hint="Contraseña" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnGuardarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtContrasena"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:background="@drawable/botonredondeado"
+        android:text="Ingresar" />
+    <Button
+        android:id="@+id/btnCrearUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnGuardarUsuario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:background="@drawable/botonredondeado"
+        android:text="Crear Cuenta" />
+
+
+</RelativeLayout>

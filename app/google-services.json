@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "112223378299",
+    "firebase_url": "https://proyecto2024pii-default-rtdb.firebaseio.com",
+    "project_id": "proyecto2024pii",
+    "storage_bucket": "proyecto2024pii.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112223378299:android:3a8c843d218a645ef3bbde",
+        "android_client_info": {
+          "package_name": "com.ugb.controlesbasicos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvsu-RB5FWLkIEcexSAOX7VydsdR540xQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
